@@ -35,5 +35,12 @@ public class HomeController {
 		
 		return "home";
 	}
+
+	@RequestMapping(value = "/hellospring", method = RequestMethod.GET)
+	public String helloSpring(Model model) {
+		logger.info("Hello Spring!");
+
+		return "hellospring";
+	}
 	
 }
