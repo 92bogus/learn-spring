@@ -23,6 +23,6 @@
 	
 	<context:component-scan base-package="com.bogus.learningspring" />
 	
-	<beans:bean name="/hello" class="com.bogus.learningspring.HelloController" />
+	<!--<beans:bean name="/hello" class="com.bogus.learningspring.HelloController" />-->
 	
 </beans:beans>
